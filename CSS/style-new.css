@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/vogue");
+
+html {
+    font-size: 10px;
+    font-family: 'Vogue', sans-serif;
+  }
+
+body {
+    background-color: #E8E6E7;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+.container-top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+}
+
+.gallery-top {
+    width: 30%;
+}
+
+.container-body {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  background-color: #E5DED2;
+  margin-top: 5rem;
+  
+}
+
+.gallery-body {
+  display: inline block;
+  width: 50%;
+  flex: 1;
+}
+
+.textbox {
+  width: 50%;
+  height: auto;
+  align-self: center;
+  text-align: center;
+  font-size: 2vw;
+/*   background-color: #E5DED2; */
+}
+
+.textbox-2 img {
+    width: 100%;
+    height: 100%;
+
+}
