@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/vogue");
+
+html {
+    font-size: 10px;
+    font-family: 'Vogue', sans-serif;
+  }
+
+body {
+    background-color: #E8E6E7;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+.container-top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+}
+
+.gallery-top {
+    width: 30%;
+}
+
+.container-body {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  background-color: #E5DED2;
+  margin-top: 5rem;
+}
+
+/* .gallery-body {
+  display: inline block;
+  width: 50%;
+  flex: 1;
+} */
+
+.textbox {
+  width: 50%;
+  height: auto;
+  align-self: center;
+  text-align: center;
+  font-size: 2vw;
+/*   background-color: #E5DED2; */
+}
+
+#textbox-2 img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    order: 13;
+}
+
+#blocks {
+    display: flex;
+}
+
+#blocks div .one .two .three .four .five .six .seven {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #E5DED2;
+}
+
+.picture-one {order: 1; width: 50%;}
+.picture-two {order: 4; width: 50%;}
+.picture-three {order: 5; width: 50%;}
+.picture-four {order: 9; width: 50%;}
+.picture-five {order: 10; width: 50%;}
+.picture-six {order: 13; width: 50%;}
+.picture-seven {order: 7;}
+.picture-eight {order: 14;}
+
+#textbox-one {order: 2; width: 50%;}
+#textbox-two {order: 3; width: 50%;}
+#textbox-three {order: 6; width: 50%;}
+#textbox-four {order: 8; width: 50%;}
+#textbox-five {order: 11; width: 50%;}
+#textbox-six {order: 12; width: 50%;}
+
+
+@media screen and (min-width: 700px) {
+    .picture-one {order: 1; width: 100%;}
+    .picture-two {order: 3; width: 100%;}
+    .picture-three {order: 5; width: 100%;}
+    .picture-four {order: 7; width: 100%;}
+    .picture-five {order: 9; width: 100%;}
+    .picture-six {order: 11; width: 100%;}
+    .picture-seven {display: none;}
+    .picture-eight {display: none;}
+    
+    #textbox-one {order: 2; width: 100%;}
+    #textbox-two {order: 4; width: 100%;}
+    #textbox-three {order: 6; width: 100%;}
+    #textbox-four {order: 8; width: 100%;}
+    #textbox-five {order: 10; width: 100%;}
+    #textbox-six {order: 12; width: 100%;}
+
+    .textbox {
+        width: 50%;
+        height: 50rem;
+        align-self: center;
+        text-align: center;
+        align-content: center;
+        font-size: 2rem;
+      }
+}
