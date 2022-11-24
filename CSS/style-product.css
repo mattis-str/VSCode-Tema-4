@@ -1,14 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/vogue");
 
 html {
     font-size: 10px;
-    font-family: 'Vogue', sans-serif;
   }
 
 body {
-    background-color: #E8E6E7;
+    background-color: #E5DED2;
     margin-left: 0rem;
     margin-right: 0rem;
   }
@@ -19,7 +17,7 @@ body {
     justify-content: space-evenly;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .gallery-top {
@@ -29,7 +27,6 @@ body {
 .container-body {
   display: flex;
   width: 100%;
-  justify-content: space-around;
   flex-flow: row wrap;
   background-color: #E5DED2;
   margin-top: 5rem;
@@ -42,51 +39,97 @@ body {
 } */
 
 .textbox {
+  text-align: left;
   width: 50%;
-  height: auto;
-  align-self: center;
-  text-align: center;
-  font-size: 2vw;
 /*   background-color: #E5DED2; */
+}
+
+h2, p{
+  margin-left: 4rem;
+}
+
+h2 {
+  font-size: 5rem;
+  font-family: 'Vogue', sans-serif;
+}
+p {
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #textbox-2 img {
     display: flex;
     width: 100%;
     height: 100%;
-    order: 13;
+    align-self:center;
+    text-align: left;
 }
 
 #blocks {
     display: flex;
 }
 
-#blocks div .one .two .three .four .five .six .seven {
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    background-color: #E5DED2;
+
+#about {
+  width: 100%;
+  height: auto;
+  align-self:flex-start;
+  text-align: left;
+  order: 4;
 }
 
-.picture-one {order: 1; width: 50%;}
-.picture-two {order: 4; width: 50%;}
-.picture-three {order: 5; width: 50%;}
-.picture-four {order: 9; width: 50%;}
-.picture-five {order: 10; width: 50%;}
-.picture-six {order: 13; width: 50%;}
-.picture-seven {order: 7;}
-.picture-eight {order: 14;}
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+  
+}
 
-#textbox-one {order: 2; width: 50%;}
-#textbox-two {order: 3; width: 50%;}
-#textbox-three {order: 6; width: 50%;}
-#textbox-four {order: 8; width: 50%;}
-#textbox-five {order: 11; width: 50%;}
-#textbox-six {order: 12; width: 50%;}
+button {
+  background-color: #915b3f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  border: 2px solid #915b3f;
+}
+
+button:hover {
+  background-color: #E5DED2;
+  color: #000000;
+}
+
+.mini-img {
+margin: 1rem;
+    
+}
+
+.picture-one {
+    width: 50%;
+/*     margin: 1rem; */
+}
+
+.picture-two {
+    width: 16.6%;
+}
+
+.picture-three {
+    width: 16.6%;
+}
+
+.picture-four {
+    width: 16.6%;
+}
 
 
-@media screen and (max-width: 700px) {
+
+/* @media screen and (max-width: 700px) {
+
     .picture-one {order: 1; width: 100%;}
     .picture-two {order: 3; width: 100%;}
     .picture-three {order: 5; width: 100%;}
@@ -95,6 +138,7 @@ body {
     .picture-six {order: 11; width: 100%;}
     .picture-seven {display: none;}
     .picture-eight {display: none;}
+    .picture-nine {order:15; width: 100%;}
     
     #textbox-one {order: 2; width: 100%;}
     #textbox-two {order: 4; width: 100%;}
@@ -102,6 +146,7 @@ body {
     #textbox-four {order: 8; width: 100%;}
     #textbox-five {order: 10; width: 100%;}
     #textbox-six {order: 12; width: 100%;}
+    #textbox-seven {order:16; width:100%;}
 
     .textbox {
         width: 50%;
@@ -111,4 +156,4 @@ body {
         align-content: center;
         font-size: 2rem;
       }
-}
+} */
