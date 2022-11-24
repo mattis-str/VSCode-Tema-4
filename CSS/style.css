@@ -29,7 +29,6 @@ body {
   width: 100%;
   justify-content: space-around;
   flex-flow: row wrap;
-
   margin-top: 5rem;
 }
 
@@ -90,7 +89,9 @@ p {
   display: flex;
   justify-content: space-around;
   margin-top: 10rem;
-  
+  margin-bottom: 2rem;
+  align-self: end;
+  max-height: 53px;
 }
 
 button {
@@ -131,13 +132,6 @@ button:hover {
 #textbox-six {order: 12; width: 50%;}
 #textbox-seven {order:16; width:50%;}
 
-/* #thumbnail-one, #thumbnail-two, #thumbnail-three {
-  width: 16%;
-}
-
-#picture-product {
-  width: 50%;
-} */
 
 @media screen and (max-width: 700px) {
 
@@ -161,10 +155,16 @@ button:hover {
 
     .textbox {
         width: 50%;
-        height: 30rem;
+        height: auto;
+        margin-bottom: 2rem;
         align-self: center;
         text-align: center;
         align-content: center;
         font-size: 2rem;
       }
+
+      .container-top {
+        display: none;
+
+    }
 }
