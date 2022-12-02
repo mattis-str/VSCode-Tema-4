@@ -42,9 +42,9 @@ body {
   align-content: center;
 }
 
-h2,
-p {
-  margin-left: 2rem;
+h2, p {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 h2 {
