@@ -3,27 +3,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 html {
-    font-size: 10px;
-  }
+  font-size: 10px;
+}
 
 body {
-    background-color: #E5DED2;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    padding-top: 15rem;
-  }
+  background-color: #E5DED2;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-top: 12rem;
+}
 
 .container-top {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 5rem;
 }
 
 .gallery-top {
-    width: 30%;
+  width: 30%;
 }
 
 .container-body {
@@ -37,9 +37,13 @@ body {
 .textbox {
   text-align: left;
   width: 50%;
+  align-self: center;
+  text-align: center;
+  align-content: center;
 }
 
-h2, p{
+h2,
+p {
   margin-left: 2rem;
 }
 
@@ -47,29 +51,30 @@ h2 {
   font-size: 5rem;
   font-family: 'Vogue', sans-serif;
 }
+
 p {
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
 }
 
 #textbox-2 img {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    text-align: left;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  text-align: left;
 }
 
 #blocks {
-    display: flex;
+  display: flex;
 }
-
 
 #about {
   width: 100%;
   height: auto;
-  align-self:flex-start;
-  text-align: left;
+  align-self: center;
+  text-align: center;
+  align-content: center;
   margin-right: 2rem;
 }
 
@@ -111,39 +116,52 @@ p {
 }
 
 .picture-one {
-    width: 50%;
+  width: 50%;
 }
 
 .thumbnail-one {
-    width: 32%;
+  width: 32%;
 }
 
 .thumbnail-two {
-    width: 32%;
+  width: 32%;
 }
 
 .thumbnail-three {
-    width: 32%;
+  width: 32%;
 }
-
-
 
 @media screen and (max-width: 700px) {
 
-  .picture-one {order: 1; width: 100%;}
-  
-  #textbox-one {order: 3; width: 100%;}
-  
-  .mini-img {order: 2;}
+  .picture-one {
+    order: 1;
+    width: 100%;
+  }
 
-  #about {order: 5;}
+  #textbox-one {
+    order: 3;
+    width: 100%;
+  }
 
-  .button {order:4; width: 100%; margin-left: 2rem; margin-right: 2rem;}
+  .mini-img {
+    order: 2;
+  }
+
+  #about {
+    order: 5;
+  }
+
+  .button {
+    order: 4;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
   .textbox {
-      height: auto;
-      margin-bottom: 2rem;
-      margin-right: 2rem;
-      font-size: 2rem;
-    }
+    height: auto;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+  }
 }

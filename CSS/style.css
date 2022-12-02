@@ -14,6 +14,20 @@ body {
     padding-top: 5rem;
   }
 
+  .skip-to {
+    padding: 1rem;
+    background-color: #915b3f;
+    color: #ffffff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transform: translateY(-100px);
+  }
+
+  .skip-to:focus {
+    transform: translateY(0px);
+  }
+
 .container-top {
     display: flex;
     flex-flow: row wrap;
@@ -36,9 +50,11 @@ body {
   background-color: #E5DED2;
 }
 
-
 .textbox {
   text-align: left;
+  align-self: center;
+  text-align: center;
+  align-content: center;
 }
 
 h2, p{
@@ -50,6 +66,7 @@ h2 {
   font-size: 5rem;
   font-family: 'Vogue', sans-serif;
 }
+
 p {
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
@@ -72,7 +89,6 @@ p {
     width: 50%;
     justify-content: space-around;
     flex-flow: row wrap;
-  
 }
 
 #about {
