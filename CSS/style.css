@@ -13,7 +13,12 @@ body {
     margin-right: 0rem;
     padding-top: 5rem;
   }
-
+.open {
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  margin-top: 50rem;
+}
   .skip-to {
     padding: 1rem;
     background-color: #915b3f;
@@ -97,6 +102,7 @@ p {
   text-align: left;
   order: 4;
   text-indent: 5rem;
+  margin: 10rem;
 }
 
 .button {
@@ -109,7 +115,7 @@ p {
 }
 
 .button-body {
-  background-color: #915b3f;
+  background-color: #000000;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -119,14 +125,14 @@ p {
   font-size: 16px;
   transition-duration: 0.4s;
   border-radius: 4px;
-  border: 2px solid #915b3f;
+  border: 2px solid #000000;
   cursor: pointer;
 }
 
 .button-body:hover {
-  background-color: #000000;
+  background-color: #915b3f;
   color: #ffffff;
-  border: 2px solid #000000;
+  border: 2px solid #915b3f;
 }
 
 
@@ -138,7 +144,6 @@ p {
 .picture-six {order: 13; width: 50%;}
 .picture-seven {order: 7;}
 .picture-eight {order: 14;}
-.picture-nine {order:15; width: 50%;}
 
 #textbox-one {order: 2; width: 50%;}
 #textbox-two {order: 3; width: 50%;}
@@ -159,7 +164,6 @@ p {
     .picture-six {order: 11; width: 100%;}
     .picture-seven {display: none;}
     .picture-eight {display: none;}
-    .picture-nine {order:15; width: 100%;}
     
     #textbox-one {order: 2; width: 100%;}
     #textbox-two {order: 4; width: 100%;}
